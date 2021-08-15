@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="tw.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" />
+    <style>
+      ::-webkit-scrollbar {
+        height: 5px;
+      }
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background:violet;
+      }
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: red;
+      }
+      
+      /*@apply bg-white text-blue-400 rounded-full;*/
+      .activeS {background: white; border-radius: 9999px; color: #63b3ed;}
+      
+    </style>
+</head>
+<body class="h-screen flex flex-col flex-1 overflow-hidden " style="background: #edf2f7;">
+<div class="w-full">
+  <!-- component -->
+  <nav class="flex items-center justify-between flex-wrap bg-blue-700 p-6">
+    <div class="flex items-center flex-no-shrink text-white mr-6">
+      <svg class="h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+      <span class="font-semibold text-xl tracking-tight">Eserve</span>
+    </div>
+    <div class="block lg:hidden">
+      <button class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
+        <svg class="h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      </button>
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <!--<div class="text-sm lg:flex-grow">
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
+          Docs
+        </a>
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
+          Examples
+        </a>
+        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white">
+          Blog
+        </a>
+      </div>
+      <div>
+        <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 lg:mt-0">Download</a>
+      </div>-->
+    </div>
+  </nav>
+</div>
+<div class="flex flex-1">
+  <div class="min-h-full flex bg-gray-300">
+    <div class="flex flex-col w-56 bg-white overflow-hidden">
+      <ul class="flex flex-col py-4">
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-home"></i></span>
+            <span class="text-sm font-medium">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-music"></i></span>
+            <span class="text-sm font-medium">Lost</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-music"></i></span>
+            <span class="text-sm font-medium">Found</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-drink"></i></span>
+            <span class="text-sm font-medium">Report Incident</span>
+          </a>
+        </li>
+        <!--<li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-shopping-bag"></i></span>
+            <span class="text-sm font-medium">Shopping</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-chat"></i></span>
+            <span class="text-sm font-medium">Chat</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-user"></i></span>
+            <span class="text-sm font-medium">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-bell"></i></span>
+            <span class="text-sm font-medium">Notifications</span>
+            <span class="ml-auto mr-6 text-sm bg-red-100 rounded-full px-3 py-px text-red-500">5</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+            <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i class="bx bx-log-out"></i></span>
+            <span class="text-sm font-medium">Logout</span>
+          </a>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+    <div class="flex-1 flex flex-col items-strech  bg-gray-400 " >
+      <div class="p-3 flex justify-between items-center">
+        <div class="bg-gray-200 text-sm text-gray-500 leading-none border-2 border-gray-200 rounded-full inline-flex" id="viewtoggle">
+          <button class="inline-flex items-center transition-colors duration-300 ease-in focus:outline-none hover:text-blue-400 focus:text-blue-400 rounded-l-full px-4 py-2 activeS" id="grid" onclick="toggle(this)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fill-current w-4 h-4 mr-2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            <span>Grid</span>
+          </button>
+          <button class="inline-flex items-center transition-colors duration-300 ease-in focus:outline-none hover:text-blue-400 focus:text-blue-400 rounded-r-full px-4 py-2" id="list" onclick="toggle(this)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fill-current w-4 h-4 mr-2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+            <span>List</span>
+          </button>
+        </div>
+        <div class="px-3">
+          <button>Post Lost/Found</button>
+        </div>
+      </div>
+      <div class=" flex-1 flex flex-col" id="gridview">
+        <div class="px-6 h-full opacity-100">
+        
+          <div class="h-full w-full flex justify-center">
+            <div class="h-full">
+              <img id="preview" class="mySlides image1 description h-full opacity-100 cursor-pointer" src="assets/img/1.gif" onclick="currentSlide(1)" alt="Dog's Nose">
+            </div>
+          </div>
+        </div>
+        <div class="h-24 w-full px-6">
+          <div class="bg-blue-500 w-full h-full text-center text-white">
+            <div id="caption"></div>
+            <div id="descp"></div>
+          </div>
+        </div>
+        <div class="h-64 w-full px-6 pb-6">
+          <div class="bg-transparent w-full h-full">
+            
+          <!-- smaller images under description -->
+          <div class="flex h-full justify-center overflow-x-auto z-0" id="slide">
+              <img class="image1 description h-100 opacity-50 hover:opacity-100 cursor-pointer border-double border-4 border-light-blue-500" src="assets/img/1.gif" onclick="currentSlide(event)" alt="pic1">
+              <img class="image2 description h-100 opacity-50 hover:opacity-100 cursor-pointer border-double border-4 border-light-blue-500" src="assets/img/1.gif" onclick="currentSlide(event)" alt="pic2">
+              <img class="image2 description h-100 opacity-50 hover:opacity-100 cursor-pointer border-double border-4 border-light-blue-500" src="assets/img/1.png" onclick="currentSlide(event)" alt="pic3">
+              <img class="image2 description h-100 opacity-50 hover:opacity-100 cursor-pointer border-double border-4 border-light-blue-500" src="assets/img/1.png" onclick="currentSlide(event)" alt="pic3">
+              <img class="image2 description h-100 opacity-50 hover:opacity-100 cursor-pointer border-double border-4 border-light-blue-500" src="assets/img/1.png" onclick="currentSlide(event)" alt="pic3">   
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class=" flex-1 flex flex-col hidden" id="listview">
+        <div class="px-6 h-full opacity-100 flex flex-row flex-wrap -mx-2">
+          
+               
+    <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
+      <div class="relative bg-white rounded border">
+        <picture class="block bg-gray-200 border-b">
+          <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">
+        </picture>
+        <div class="p-4">
+          <h3 class="text-lg font-bold">
+            <a class="stretched-link" href="#" title="Card 1">
+              Card 1
+            </a>
+          </h3>
+          <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+         
+    <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
+      <div class="relative bg-white rounded border">
+        <picture class="block bg-gray-200 border-b">
+          <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">
+        </picture>
+        <div class="p-4">
+          <h3 class="text-lg font-bold">
+            <a class="stretched-link" href="#" title="Card 1">
+              Card 1
+            </a>
+          </h3>
+          <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+         
+    <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
+      <div class="relative bg-white rounded border">
+        <picture class="block bg-gray-200 border-b">
+          <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">
+        </picture>
+        <div class="p-4">
+          <h3 class="text-lg font-bold">
+            <a class="stretched-link" href="#" title="Card 1">
+              Card 1
+            </a>
+          </h3>
+          <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+     
+    <div class="w-full sm:w-1/2 md:w-1/3 mb-4 px-2">
+      <div class="relative bg-white rounded border">
+        <picture class="block bg-gray-200 border-b">
+          <img class="block" src="https://via.placeholder.com/800x600/EDF2F7/E2E8F0/&amp;text=Card" alt="Card 1">
+        </picture>
+        <div class="p-4">
+          <h3 class="text-lg font-bold">
+            <a class="stretched-link" href="#" title="Card 1">
+              Card 1
+            </a>
+          </h3>
+          <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  //JS to switch slides and replace text in bar//
+  var slideIndex = 1;
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(e) {
+    var i;
+    const preview=document.getElementById("preview");
+    const slides=document.getElementById("slide").children;
+    //var slides = document.getElementsByClassName("mySlides");
+    //var dots = document.getElementsByClassName("description");
+    const captionText = document.getElementById("caption");
+    //if (n > slides.length) {
+    //  slideIndex = 1
+    //}
+    //if (n < 1) {
+    //  slideIndex = slides.length
+    //}
+    for (i = 0; i < slides.length; i++) {
+      if(slides[i].classList.contains('opacity-100'))
+        slides[i].classList.replace('opacity-100','opacity-50')
+    }
+    preview.src=e.target.src;
+    e.target.classList.replace('opacity-50','opacity-100');
+    //for (i = 0; i < dots.length; i++) {
+    //  dots[i].className = dots[i].className.replace(" opacity-100", "");
+    //}
+    //slides[slideIndex - 1].style.display = "block";
+    //dots[slideIndex - 1].className += " opacity-100";
+    captionText.innerHTML = e.target.alt;
+  }
+    let viewtoggle=document.getElementById('viewtoggle').children
+  function toggle(e){
+    for (i = 0; i < viewtoggle.length; i++) {
+      //if(viewtoggle[i].classList.contains('active'))
+      viewtoggle[i].classList.remove('activeS')
+    }
+    e.classList.add('activeS');
+    if(e.children[1].innerHTML=='List'){
+      document.getElementById('gridview').classList.add('hidden')
+      document.getElementById('listview').classList.remove('hidden')
+    }
+    else{
+      document.getElementById('gridview').classList.remove('hidden')
+      document.getElementById('listview').classList.add('hidden')
+    }
+  }
+</script>
+</body>
+</html>

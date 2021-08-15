@@ -1,0 +1,398 @@
+[
+    {
+        "barangay":"Alcate",
+        "sitio":[
+            "Pagdulang",
+            "Proper",
+            "213",
+            "kaldayapan",
+            "Ipil Ipilan",
+            "Murangan",
+            "Pines Camp",
+            "Bagong Pook",
+            "VMC",
+            "BPI"
+        ]
+    },
+    {
+        "barangay":"Antonino",
+        "sitio":[
+            "Manggahan",
+            "Hilltop",
+            "Riverside",
+            "Centro Antonino",
+            "Kanluran Antonino",
+            "Labasan Antonino",
+            "Silangan Antonino"
+        ]
+    },
+    {
+        "barangay":"Babangonan",
+        "sitio":[
+            "Highway Ibaba Babangonan",
+            "Highway Ilaya Babangonan",
+            "Centro Highway Babangonan",
+            "Centro Babangonan",
+            "Sta. Mesa Silangan Babangonan",
+            "Sta. Mesa Ibaba Babangonan",
+            "Sta. Mesa Ilaya Babangonan"
+
+        ]
+    },
+    {
+        "barangay":"Bagong Buhay",
+        "sitio":[
+            "Purok 1 Bagong Buhay",
+            "Purok 2 Bagong Buhay",
+            "Purok 3 Bagong Buhay",
+            "Purok 4 Bagong Buhay",
+            "Purok 5 Bagong Buhay",
+            "Purok 6 Bagong Buhay",
+            "Purok 7 Bagong Buhay"
+
+        ]
+    },
+    {
+        "barangay":"Bagong Silang",
+        "sitio":[
+            "Purok 1 Bagong Silang",
+            "Purok 2 Bagong Silang",
+            "Purok 3 Bagong Silang",
+            "Purok 4 Bagong Silang",
+            "Purok 5 Bagong Silang",
+            "Purok 6 Bagong Silang",
+            "Purok 7 Bagong Silang"
+
+        ]
+    },
+    {
+        "barangay":"Bambanin",
+        "sitio":[
+            "Centro 1 Bambanin",
+            "Centro 2 Bambanin",
+            "Duongan Bambanin",
+            "Balaas Bambanin",
+            "Special Housing Bambanin",
+            "Core Housing Bambanin"
+
+        ]
+    },
+    {
+        "barangay":"Bethel",
+        "sitio":[
+            "Sector 1 Bethel",
+            "Sector 2 Bethel",
+            "Sector 3 Bethel",
+            "Sector 4 Bethel",
+            "Sector 5 Bethel",
+            "Jordan Bethel",
+            "Kalantiawan Bethel"
+
+        ]
+    },
+    {
+        "barangay":"Canaan",
+        "sitio":[
+            "Sector 1 Canaan",
+            "Sector 2 Canaan",
+            "Sector 3 Canaan",
+            "Sector 4 Canaan",
+            "Sector 5 Canaan",
+            "Sector 6 Canaan"
+
+        ]
+    },
+    {
+        "barangay":"Concepcion",
+        "sitio":[
+            "FIDA CONCEPCION",
+            "NARRA CONCEPCION",
+            "BAYANAN CONCEPCION",
+            "CENTRO CONCEPCION",
+            "NAYONG PILIPINO CONCEPCION",
+            "SILANGAN CONCEPCION"
+
+        ]
+    },
+    {
+        "barangay":"Duongan",
+        "sitio":[
+            "Purok 1 Duongan",
+            "Purok 2 Duongan",
+            "Purok 3 Duongan",
+            "Purok 4 Duongan",
+            "Purok 5 Duongan",
+            "Purok 6 Duongan",
+            "Purok 7 Duongan"
+
+        ]
+    },
+    {
+        "barangay":"Jose Leido Jr.",
+        "sitio":[
+            "Centro Leido",
+            "Upper Leido",
+            "Balaas Leido",
+            "San Carlos Leido",
+            "Malamig Leido"
+
+        ]
+    },
+    {
+        "barangay":"Loyal",
+        "sitio":[
+            "Silangan Loyal",
+            "Core Housing Loyal",
+            "Centro Loyal",
+            "Subic Loyal",
+            "Buenavista Loyal",
+            "Minorities Loyal",
+            "Pamuwisan Loyal"
+
+        ]
+    },
+    {
+        "barangay":"Mabini",
+        "sitio":[
+            "Pinatubo Ibaba Mabini",
+            "Centro Kanluran Mabini",
+            "Centro Silangan Mabini",
+            "Highway 1 Mabini",
+            "Highway 2 Mabini",
+            "Pier Dos Kanluran Mabini",
+            "Pier Dos Silangan Mabini"
+
+        ]
+    },
+    {
+        "barangay":"Macatoc",
+        "sitio":[
+            "Purok 1 Macatoc",
+            "Purok 2 Macatoc",
+            "Purok 3 Macatoc",
+            "Purok 4 Macatoc",
+            "Purok 5 Macatoc",
+            "Purok 6 Macatoc",
+            "Purok 7 Macatoc"
+
+        ]
+    },
+    {
+        "barangay":"Malabo",
+        "sitio":[
+            "Sitio 1 Malabo",
+            "Sitio 2 Malabo",
+            "Sitio 3 Malabo",
+            "Sitio 4 Malabo",
+            "Sitio 5 Malabo",
+            "Sitio 6 Malabo",
+            "Sitio 7 Malabo"
+
+        ]
+    },
+    {
+        "barangay":"Merit",
+        "sitio":[
+            "Sitio 1 Merit",
+            "Sitio 2 Merit",
+            "Sitio 3 Merit",
+            "Sitio 4 Merit",
+            "Sitio 5 Merit",
+            "Sitio 6 Merit",
+            "Sitio 7 Merit"
+
+        ]
+    },
+    {
+        "barangay":"Ordovilla",
+        "sitio":[
+            "Sitio 1 Ordovilla",
+            "Sitio 2 Ordovilla",
+            "Sitio 3 Ordovilla",
+            "Sitio 4 Ordovilla",
+            "Sitio 5 Ordovilla",
+            "Sitio 6 Ordovilla",
+            "Sitio 7 Ordovilla"
+
+        ]
+    },
+    {
+        "barangay":"Pakyas",
+        "sitio":[
+            "PROPER NORTH", 
+            "PROPER SOUTH", 
+            "RIVERSIDE 1", 
+            "RIVERSIDE 2", 
+            "BAGONG PAG ASA", 
+            "PARANG", 
+            "GUSAY", 
+            "STA MARIA 1", 
+            "STA MARIA 2" 
+        ]
+    },
+    {
+        "barangay":"Poblacion II",
+        "sitio":[
+            "Kanluran Poblacion 2",
+            "Silangan Poblacion 2"
+
+        ]
+    },
+    {
+        "barangay":"Poblacion I",
+        "sitio":[
+            "Sector 1 Poblacion 1",
+            "Sector 2 Poblacion 1",
+            "Sector 3 Poblacion 1",
+            "Sector 4 Poblacion 1",
+            "Sector 5 Poblacion 1",
+            "Sector 6 Poblacion 1",
+            "Sector 7 Poblacion 1"
+
+        ]
+    },
+    {
+        "barangay":"Poblacion III",
+        "sitio":[
+            "Tamaraw A Poblacion 3",
+            "Tamaraw B Poblacion 3",
+            "Centro Poblacion 3",
+            "Carumaguit Poblacion 3",
+            "Balauan Poblacion 3",
+            "Dimalibot Poblacion 3",
+            "Gawad Kalinga Poblacion 3"
+
+        ]
+    },
+    {
+        "barangay":"Poblacion IV",
+        "sitio":[
+            "Zone 1 Poblacion 4",
+            "Zone 2 Poblacion 4",
+            "Zone 3 Poblacion 4",
+            "Zone 4 Poblacion 4",
+            "Zone 5 Poblacion 4",
+            "Zone 6 Poblacion 4",
+            "Zone 7 Poblacion 4",
+            "Zone 8 Poblacion 4"
+
+        ]
+    },
+    {
+        "barangay":"Sampaguita",
+        "sitio":[
+            "Labak Sampaguita",
+            "Centro Sampaguita",
+            "Purok 3 Sampaguita",
+            "Purok 4 Sampaguita",
+            "Purok 5 Sampaguita",
+            "Purok 6 Sampaguita",
+            "Purok 7 Sampaguita"
+
+        ]
+    },
+    {
+        "barangay":"San Antonio",
+        "sitio":[
+            "Purok 1 San Antonio"
+
+        ]
+    },
+    {
+        "barangay":"San Cristobal",
+        "sitio":[
+            "Sitio 1 San Cristobal",
+            "Sitio 2 San Cristobal",
+            "Sitio 3 San Cristobal",
+            "Sitio 4 San Cristobal"
+
+        ]
+    },
+    {
+        "barangay":"San Gabriel",
+        "sitio":[
+            "Silangan San Gabriel",
+            "Macasaet 1 San Gabriel",
+            "Macasaet 2 San Gabriel",
+            "Kanluran San Gabriel",
+            "Compra 1 San Gabriel",
+            "Compra 2 San Gabriel",
+            "Maruyruy San Gabriel"
+
+        ]
+    },
+    {
+        "barangay":"San Gelacio",
+        "sitio":[
+            "Sector 1 San Gelacio",
+            "Sector 2 San Gelacio",
+            "Sector 3 San Gelacio",
+            "Sector 4 San Gelacio",
+            "Sector 5 San Gelacio",
+            "Sector 6 San Gelacio",
+            "Sector 7 San Gelacio"
+        ]
+    },
+    {
+        "barangay":"San Isidro",
+        "sitio":[
+            "Highway 1 San Isidro",
+            "Riverside San Isidro",
+            "White Plains San Isidro",
+            "Highway 2 San Isidro",
+            "Manggahan San Isidro",
+            "Forbes San Isidro",
+            "Oblong San Isidro"
+
+        ]
+    },
+    {
+        "barangay":"San Juan",
+        "sitio":[
+            "Silangan San Juan",
+            "Centro San Juan",
+            "Kanluran San Juan",
+            "Puntod San Juan"
+
+        ]
+    },
+    {
+        "barangay":"San Narciso",
+        "sitio":[
+            "Purok 1 San Narciso",
+            "Purok 2 San Narciso",
+            "Purok 3 San Narciso",
+            "Purok 4 San Narciso",
+            "Purok 5 San Narciso",
+            "Purok 6 San Narciso",
+            "Purok 7 San Narciso"
+        ]
+    },
+    {
+        "barangay":"Urdaneta",
+        "sitio":[
+            "Sitio 1 Urdaneta",
+            "Sitio 2 Urdaneta",
+            "Sitio 3 Urdaneta",
+            "Sitio 4 Urdaneta",
+            "Sitio 5 Urdaneta"
+        ]
+    },
+    {
+        "barangay":"Villa Cerveza",
+        "sitio":[
+            "Lagpan",
+            "Riverside",
+            "Centro",
+            "Pogon",
+            "Dangare",
+            "Viakalan",
+            "Palayang Bayan",
+            "Candido",
+            "Puting Bato",
+            "Tulalong",
+            "Malayas"
+
+        ]
+    }
+]
