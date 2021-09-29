@@ -5,6 +5,7 @@ include '../config.php';
 if(isset($_POST['clearance']))
 {
     $data=$_POST;
+    // print_r($_FILES);return;
     // print_r(v_alpha([$data['last_name']]));return;
     if(!v_alpha([$data['last_name'],$data['first_name'],$data['middle_name']])){
         $_SESSION['msg']=['type'=>'error','msg'=>'Name cant contain numbers'];

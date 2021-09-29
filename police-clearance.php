@@ -30,35 +30,39 @@ include 'helper/includes.php';
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Res. cert. (cedula)</label>
                                     <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="cedula" id="cedula">
+                                    <small style="color:red"></small>
                                 </div>
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Barangay Clearance</label>
                                     <input placeholder="Pangalan" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="barangay_clearance" id="barangay_clearance">
+                                    <small style="color:red"></small>
                                 </div>
                             </div>
                             <div class="md:flex md:flex-row md:space-x-4 w-full text-xs">
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Judge Clearance</label>
                                     <input placeholder="" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="judge_clearance" id="judge_clearance">
+                                    <small style="color:red"></small>
                                 </div>
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">OR from treasurers office for Police Clearance</label>
                                     <input placeholder="" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="ORno" id="ORno">
+                                    <small style="color:red"></small>
                                 </div>
                             </div>
                             <hr>
                             <div class="md:flex md:flex-row md:space-x-4 w-full text-xs">
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">SurName</label>
-                                    <input placeholder="Apelyido" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="last_name" id="last_name">
+                                    <input placeholder="Apelyido" class="alpha appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="last_name" id="last_name">
                                 </div>
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">First Name</label>
-                                    <input placeholder="Pangalan" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="first_name" id="first_name">
+                                    <input placeholder="Pangalan" class="alpha appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="first_name" id="first_name">
                                 </div>
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Middle Name</label>
-                                    <input placeholder="" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="middle_name" id="middle_name">
+                                    <input placeholder="" class="alpha appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="middle_name" id="middle_name">
                                 </div>
                             </div>
                             <div class="md:flex md:flex-row md:space-x-4 w-full text-xs">
@@ -132,7 +136,8 @@ include 'helper/includes.php';
                                 </div>
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Contact Number </label>
-                                    <input placeholder="ex 0912...." class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="contact_number" id="contact_number">
+                                    <input placeholder="ex 0912...." class="number appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="contact_number" id="contact_number">
+                                    <small></small>
                                 </div>
                             </div>
                             

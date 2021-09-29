@@ -126,11 +126,13 @@ function verification($length)
                 <div class="md:flex md:flex-row md:space-x-4 w-full text-xs">
                     <div class="w-full flex flex-col mb-3">
                         <label class="font-semibold text-gray-600 py-2">Name</label>
-                        <input placeholder="Full Name (Optional)" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="name" id="name">
+                        <input placeholder="Full Name (Optional)" class=" alpha appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="name" id="name">
+                        <small></small>
                     </div>
                     <div class="w-full flex flex-col mb-3">
                         <label class="font-semibold text-gray-600 py-2">Contact Number</label>
-                        <input placeholder="Contact Number" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="contact" id="contact">
+                        <input placeholder="Contact Number" class="number appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="text" name="contact" id="contact">
+                        <small></small>
                     </div>
                 </div>
                 <div class="md:flex md:flex-row md:space-x-4 w-full text-xs">
