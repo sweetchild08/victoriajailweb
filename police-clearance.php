@@ -29,24 +29,24 @@ include 'helper/includes.php';
                             <div class="md:flex md:flex-row md:space-x-4 w-full text-xs">
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Res. cert. (cedula)</label>
-                                    <input class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="cedula" id="cedula">
+                                    <input accept=".jpg,.jpeg,.png,.bmp,.gif,.jfif" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="cedula" id="cedula">
                                     <small style="color:red"></small>
                                 </div>
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Barangay Clearance</label>
-                                    <input placeholder="Pangalan" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="barangay_clearance" id="barangay_clearance">
+                                    <input accept=".jpg,.jpeg,.png,.bmp,.gif,.jfif" placeholder="Pangalan" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="barangay_clearance" id="barangay_clearance">
                                     <small style="color:red"></small>
                                 </div>
                             </div>
                             <div class="md:flex md:flex-row md:space-x-4 w-full text-xs">
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">Judge Clearance</label>
-                                    <input placeholder="" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="judge_clearance" id="judge_clearance">
+                                    <input accept=".jpg,.jpeg,.png,.bmp,.gif,.jfif" placeholder="" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="judge_clearance" id="judge_clearance">
                                     <small style="color:red"></small>
                                 </div>
                                 <div class="w-full flex flex-col mb-3">
                                     <label class="font-semibold text-gray-600 py-2">OR from treasurers office for Police Clearance</label>
-                                    <input placeholder="" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="ORno" id="ORno">
+                                    <input accept=".jpg,.jpeg,.png,.bmp,.gif,.jfif" placeholder="" class="appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded-lg h-10 px-4" type="file" name="ORno" id="ORno">
                                     <small style="color:red"></small>
                                 </div>
                             </div>
