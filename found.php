@@ -10,7 +10,7 @@ include 'helper/includes.php';
 
     <?php include 'components/headtag.php'; ?>
     
-<body class="h-screen flex flex-col flex-1 overflow-hidden " style="background: #edf2f7;">
+<body class="h-screen flex flex-col flex-1 overflow-hidden " style="background: 12, 43, 121;">
     <?php include 'components/header.php' ?>
     <?php include 'components/modal.php' ?>
     <div class="flex flex-1">

@@ -6,7 +6,7 @@
 
     <?php include 'components/headtag.php'; ?>
     
-<body class="h-screen flex flex-col flex-1 overflow-hidden " style="background: #edf2f7;">
+<body class="h-screen flex flex-col flex-1 overflow-hidden " style="background: #120C6E;">
     <?php include 'components/header.php' ?>
     <div class="flex flex-1">
         <?php include 'components/sidebar.php' ?>

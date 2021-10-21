@@ -10,7 +10,8 @@ function togglesidebar(){
         <nav class="flex items-center justify-between flex-wrap bg-blue-700 p-6">
             <div class="flex items-center flex-no-shrink text-white mr-6">
                 
-                <span class="font-semibold text-xl tracking-tight">Eserve</span>
+                <span style="font-size: 3rem; font-weight:bold" class="font-pythagoras text-xl tracking-tight">EServ for Victoria</span>
+
             </div>
             <div class="block lg:hidden">
                 <button class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white" onclick="togglesidebar()">
