@@ -4,7 +4,7 @@ function togglesidebar(){
     sidebar.style.display=sidebar.style.display=='none'?'flex':'none'
 }
 </script>
-<div class="w-full h-1/5">
+<div class="w-full h-1/5"> 
 
         <!-- component -->
         <nav class="flex items-center justify-between flex-wrap bg-blue-700 p-6">
